@@ -1,0 +1,21 @@
+{
+  "nodes": {
+    "master.example.com": {
+      ":ip": "192.168.32.5",
+      "ports": [],
+      ":memory": 2048,
+      ":role": ["base"]
+    },
+    "node01.example.com": {
+      ":ip": "192.168.32.10",
+      "ports": [],
+      ":memory": 1024,
+      ":role": ["base"]
+    },
+    "node02.example.com": {
+      ":ip": "192.168.32.20",
+      "ports": [],
+      ":role": ["base"]
+    }
+  }
+}
